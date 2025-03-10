@@ -1,20 +1,30 @@
 /*variables*/
-let nom = "java";
-const version = parseFloat(6.5);
-let etat = false;
-let chiffre = null;
-let trump = undefined;
-const tables = ["html", "css", true];
+/*
+let nom = ("java")
+const version = parseFloat(6.5)
+let etat = false
+let chiffre = null
+let trump = undefined
+const tables = ["html","css",true]
 const user = {
-    nom: "Doe",
-    ville: "NY",
-    age: 19
-};
+    nom:"Doe",
+    ville:"NY",
+    age:19
+}
 
-console.log(typeof nom);
-console.log(version);
-console.log(etat);
-console.log(typeof chiffre);
-console.log(typeof trump);
-console.log(typeof tables);
-console.log(user);
+console.log(typeof nom)
+console.log(version)
+console.log(etat)
+console.log(typeof chiffre)
+console.log(typeof trump)
+console.log(typeof tables)
+console.log( user)
+*/
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("Chargé");
+
+    elTitre = document.querySelector("title");
+    elTitre.innerText = "Développement PHP";
+    const mainTitle = document.querySelectorAll("title, h1");
+    mainTitle.forEach(el => el.innerText = "Développement PHP");
+});
